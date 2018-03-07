@@ -1,0 +1,38 @@
+header {
+    height: 50px;
+    background-color: white;
+    z-index: 3
+}
+main {
+    margin-top: 0%;
+    padding-top:12%;
+}
+.hamburger,.hamburger::after,.hamburger::before{
+    background-color:black;
+}
+.icon{
+    left: 5%;
+    top:15%;
+}
+.footerGallery{
+    margin:5% 0%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.classGallery{
+
+    width:50%;
+    color:white;
+    opacity:0.4;
+    transition: 0.5s;
+    font-size: 1.8rem;
+}
+.classGallery:hover{
+    opacity:1;
+    cursor:pointer;
+}
+.active{
+    opacity:1;
+}
