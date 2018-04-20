@@ -1,4 +1,4 @@
-Tytuł: Opinie
+Tytuł: Strona dla fotografa
 
 Opis:
 
